@@ -1,0 +1,176 @@
+/* Contains styles for all components within Homepage.js */
+
+* {
+    margin:  0;
+    padding: 0;
+}
+
+.hero-container {
+    display: flex;
+    background-color: rgb(73, 94, 87);
+    justify-content: space-evenly;
+}
+
+.hero-container-left {
+    width: 250px;
+    margin: 10px 20px 50px;
+}
+
+.hero-container-right {
+    min-width: 300px;
+}
+
+.ll-heading {
+    font-size: 3rem;
+    font-family: "MarkaziText";
+    color: rgb(244, 206, 20);
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 2rem;
+    color: white;
+    font-weight: normal;
+    font-family: "MarkaziText";
+    margin: 0px;
+}
+
+.hero-description {
+    font-family: "MarkaziText";
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 20px;
+}
+
+#hero-image {
+    position: absolute;
+    margin-top: 30px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.reserve-table {
+    background-color: rgb(244, 206, 20);
+    padding: 10px 15px;
+    font-family: "Karla";
+    font-size: medium;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.specials-top {
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-evenly;
+}
+
+.specials-title {
+    font-size: 3rem;
+    font-family: "MarkaziText";
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.online-menu {
+    background-color: rgb(244, 206, 20);
+    padding: 10px 15px;
+    font-family: "Karla";
+    font-size: medium;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.specials-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+.card-container {
+    width: 250px;
+    background-color: rgb(237, 239, 238);
+    border-radius: 10px;
+}
+
+.card-container > img {
+    border-radius: 10px 10px 0 0;
+    height: 170px;
+    object-fit: cover;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 0px 10px;
+}
+
+.specials-name {
+    font-family: "Karla";
+}
+
+.specials-price {
+    font-family: "Karla";
+    color: rgb(238, 153, 114);
+}
+
+.specials-desc {
+    font-family: "MarkaziText";
+    color: rgb(51, 51, 51);
+    height: 85px;
+    padding: 15px 25px;
+}
+
+.specials-order {
+    font-family: "Karla";
+    padding: 2px;
+    margin: 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.about > img {
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-info h1 {
+    font-size: 3rem;
+    font-family: "MarkaziText";
+    color: black;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.about-info h3 {
+    font-size: 2rem;
+    color: black;
+    font-weight: normal;
+    font-family: "MarkaziText";
+    margin: 0px;
+}
+
+.about-info p {
+    width: 350px;
+    padding: 10px 0;
+}

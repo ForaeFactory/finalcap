@@ -1,0 +1,33 @@
+#ll-logo {
+    margin-right: 50px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    display: inline;
+    color: black;
+    margin: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li a {
+    color: black;
+    font-family: "Karla";
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav ul{
+    display: flex;
+    color: black;
+    font-family: "Karla";
+}

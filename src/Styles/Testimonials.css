@@ -1,0 +1,59 @@
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(73, 94, 87);
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.reviews-title {
+    font-size: 3rem;
+    font-family: "MarkaziText";
+    font-weight: normal;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.reviews-collection {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.review-card {
+    display: flex;
+    width: 230px;
+    height: 130px;
+    background-color: rgb(237, 239, 238);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.review-card > img {
+    border-radius: 10px 0px 0px 10px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.review-info {
+    align-content: center;
+    margin: 15px;
+}
+
+.review-info > h5 {
+    font-family: "Karla";
+    font-size: large;
+    margin: 5px;
+}
+
+.review-info > p {
+    font-family: "Karla";
+    font-size: small;
+    margin: 5px;
+}
+
+.review-info div {
+    margin: 10px 0  0 5px;
+}

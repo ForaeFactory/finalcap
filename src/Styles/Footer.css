@@ -1,0 +1,52 @@
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(237,239,238);
+    color: black;
+    padding: 30px;
+}
+
+.doormat {
+    width: 125px;
+}
+
+.doormat > ul {
+    font-size: small;
+}
+
+.doormat li {
+    list-style-type: none;
+    font-size: small;
+}
+
+.doormat h6 {
+    font-family: "Karla";
+    font-size: medium;
+    margin-bottom: 5px;
+}
+
+.doormat p {
+    font-family: "Karla";
+    font-size: small;
+    padding: 1px;
+}
+
+.social h6 {
+    font-family: "Karla";
+    font-size: medium;
+    margin-bottom: 5px;
+}
+
+.social li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social img {
+    width: 25px;
+    height: 25px;
+}
