@@ -14,7 +14,6 @@ const seededRandom = function (seed) {
 const fetchAPI = function (date) {
     let result = [];
     let random = seededRandom(date.getDate());
-
     for (let i = 17; i <= 23; i++) {
         if (random() < 0.5) {
             result.push(i + ':00');
@@ -29,7 +28,7 @@ const submitAPI = function (formData) {
     return true;
 };
 
-
+// Had to use script here ^^^^ wouldn't work from index.html 
 
 
 function BookingPage() {
@@ -46,16 +45,11 @@ function BookingPage() {
         console.log("action: " + action);
         setDate(action)
         return (
-            fetchAPI(new Date(action))
-        )
+            fetchAPI(new Date(action)))
     }
 
     const [date, setDate] = useState('')
-
     const [times, dispatch] = useReducer(updateTimes, initializeTimes);
-
-    console.log('New state: ' + times)
-    console.log(date)
 
     function submitForm(data) {
         if (submitAPI(data) === true) {
@@ -64,7 +58,6 @@ function BookingPage() {
             console.log('Nah Son')
         }
     }
-
 
     return (
         <BookingForm date={date} times={times} dispatch={dispatch} onSubmit={submitForm} />
